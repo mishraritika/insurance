@@ -1,4 +1,62 @@
 .home-background{
     background-color:#151f28;
-    height:1000px;
+    height: 1000px;
+}
+.index-h1{
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.index-p{
+    margin-top: 15px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 1155px){
+    .HeroSection{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1155px){
+    .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1375px){
+    .index-h1{
+        font-size: 2.7rem;
+    }
+    .index-p{
+        margin-top: 20px;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 777px){
+    .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+    }
+    .index-h1{
+        font-size: 2.2rem;
+    }
+    .index-p{
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
 }
