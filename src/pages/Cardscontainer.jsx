@@ -3,8 +3,6 @@ import React from "react";
 function Cardscontainer() {
   return (
     <>
-    
-
     {/* Card description */}
 
     <h1 id="description" class="container-heading">Trusted advice and insurance solutions to protect </h1>
