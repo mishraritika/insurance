@@ -1,0 +1,28 @@
+.navbar-container-text{
+    background-color:#151f28;
+    font-style: Open Sans;
+    color: white;
+    font-weight: 200;
+  
+ 
+
+}
+
+.navbar-container{
+    background-color:#151f28;
+
+}
+
+.navbar-searchfield{
+    font-style: Open Sans;
+    color:#151f28;
+    background: white;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    border-radius: 10px;
+    outline-color: white;
+    line-height: 30px;
+    padding: 2px;
+    line-height: 30px;
+}
