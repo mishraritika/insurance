@@ -1,17 +1,53 @@
 .home-background{
-    background-color:#151f28;
-    height: 1000px;
+    background-color:#101728;
+   
 }
 .index-h1{
-    font-size: 3.5rem;
-    text-align: center;
+    font-size: 3rem;
+    /* text-align: center; */
     text-transform: uppercase;
+    font-weight: 800;
 }
 .index-p{
     margin-top: 15px;
-    font-size: 2.2rem;
-    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    /* text-align: center; */
 }
+
+
+.container-heading {
+    color:white;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing:3px;
+
+}
+
+
+/* .homepage-image{
+    z-index:px;
+} */
+
+.homepage-button{
+
+    background: linear-gradient(to right, #9340ff 50%, #ff3c5c 100%); font-style: Open Sans;
+    font-style: normal;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align:center;
+    line-height: 3rem;
+    margin-top: 80px;
+    padding: 4px;
+
+}
+
+
+
 .image{
     width: 500px;
     height: 500px;

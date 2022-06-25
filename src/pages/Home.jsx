@@ -1,6 +1,7 @@
 import React from 'react'
 import HomePage from '../components/HomePage'
 import Navbar from '../components/Navbar'
+import Cardscontainer from './Cardscontainer'
 
 function Home() {
   return (
@@ -8,8 +9,16 @@ function Home() {
     <div class=" height:100%">
         
   <Navbar/>
+
+<div class="mt-4">
  <HomePage/>
-  </div>
+ </div>
+
+
+ <div class="mt-24">
+ <Cardscontainer/>
+ </div>
+ </div>
 
 
     </div>

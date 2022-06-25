@@ -1,8 +1,23 @@
 .navbar-container-text{
-    background-color:#151f28;
+   background-color:#101728;
     font-style: Open Sans;
     color: white;
     font-weight: 200;
+}
+
+.navbar-container-labels:hover{
+    /* color: linear-gradient(to right, #9340ff 50%, #ff3c5c 100%); font-style: Open Sans; */
+    color:#9340ff;
+}
+
+.navbar-container-labels:active{
+    /* color: linear-gradient(to right, #9340ff 50%, #ff3c5c 100%); font-style: Open Sans; */
+    color:#9340ff;
+}
+
+.navbar-container-labels:focus{
+    /* color: linear-gradient(to right, #9340ff 50%, #ff3c5c 100%); font-style: Open Sans; */
+    color:#9340ff;
 }
 
 .navbar-container{
@@ -22,4 +37,8 @@
     margin-top: 6px;
     padding: 4px;
     padding-left: 8px;
+}
+
+.navbar-searchfield:hover{
+    outline-color: #9340ff;
 }

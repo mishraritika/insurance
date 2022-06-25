@@ -1,19 +1,24 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 function FeedInsuranceData() {
   return (
     <>
-    <div className="container" class="m-10 border-2 rounded-lg hover:border-slate-400 bg-slate-200 p-8 ">   
-    <span class="font-medium absolute text-sm text-rose-600 mb-8">Please fill all the details carefully!!</span>
-      <form>
+ <Navbar/>
+    <div class="home-background">
+      <div class="mx-48">
+      <div class="form-heading pt-24 pb-4 pl-2">Fill the following form to retrieve the Insurance Data</div>
+    <div className="container" class=" border-2 rounded-lg hover:border-slate-400 bg-slate-200 p-8 ">   
+    <span class="font-medium absolute text-sm text-rose-600 mb-8">Please fill all the details carefully!</span>
+      <form class="form-content">
       <div class="relative z-0 w-full mt-10 mb-4 group">
           <div class="text-sm text-gray-500 dark:text-gray-400 font-normal">Type of Insurance</div>
           <div class="flex flex-row flex-wrap items-center mt-3 mb-4">
               <input id="Health" type="radio" value="Health Insurance" name="Insurance" class="w-4 h-4 bg-gray-100 border-gray-300dark:ring-offset-gray-800  dark:bg-gray-700 dark:border-gray-600"/>
-              <label for="Health" class="ml-2 mx-8 text-sm font-medium text-gray-600 dark:text-gray-300">Health Insurance</label>
+              <label for="Health" class="ml-2 mx-8 text-sm font-medium text-gray-600">Health Insurance</label>
           
               <input id="Life" type="radio" value="" name="Insurance" class="w-4 h-4 bg-gray-100 border-gray-300 dark:ring-offset-gray-800  dark:bg-gray-700 dark:border-gray-600"/>
-              <label for="Life" class="ml-2 mx-8 text-sm font-medium text-gray-600 dark:text-gray-300">Life Insurance</label>
+              <label for="Life" class="ml-2 mx-8 text-sm font-medium text-gray-600">Life Insurance</label>
           
               <input id="Business" type="radio" value="" name="Insurance" class="w-4 h-4 bg-gray-100 border-gray-300 dark:ring-offset-gray-800 dark:bg-gray-700 dark:border-gray-600"/>
               <label for="Business" class="ml-2 mx-8 text-sm font-medium text-gray-600 dark:text-gray-300">Business Insurance</label>
@@ -86,6 +91,8 @@ function FeedInsuranceData() {
         </div>
         <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
       </form>
+    </div>
+    </div>
     </div>
     </>
   );
