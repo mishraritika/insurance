@@ -1,11 +1,12 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import HomePage from '../components/HomePage'
 import Navbar from '../components/Navbar'
 import Cardscontainer from './Cardscontainer'
 
 function Home() {
   return (
-    <div class="home-background height:100% mb-14">
+    <div class="home-background height:100%">
     <div class=" height:100%">
         
   <Navbar/>
@@ -18,6 +19,7 @@ function Home() {
  <div class="mt-24">
  <Cardscontainer/>
  </div>
+ <Footer/>
  </div>
 
 

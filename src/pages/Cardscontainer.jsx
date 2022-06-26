@@ -5,7 +5,7 @@ function Cardscontainer() {
     <>
     
 
-    {/* Card description */}
+    <div class=" text-white">
 
     <h1 id="description" class="container-heading">Trusted advice and insurance solutions to protect </h1>
     <div className="container" class="m-10 border-2 rounded-lg hover:border-slate-400 bg-slate-300 p-8" >
@@ -46,6 +46,7 @@ function Cardscontainer() {
         </p>
       </div>
     </div>
+  </div>
   </div>
 </div>
     </>

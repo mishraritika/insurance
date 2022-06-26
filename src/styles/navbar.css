@@ -3,6 +3,8 @@
     font-style: Open Sans;
     color: white;
     font-weight: 200;
+    letter-spacing:1px;
+
 }
 
 .navbar-container-labels:hover{
@@ -42,3 +44,10 @@
 .navbar-searchfield:hover{
     outline-color: #9340ff;
 }
+
+.navbar-position{
+    position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+   }
