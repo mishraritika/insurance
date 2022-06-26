@@ -12,7 +12,7 @@ function ClaimInsurance() {
     <div class="px-10">
     <div class="mt-48 form-heading pb-4 pl-2">Fill the following form to claim the Insurance</div>
     <div className="container" class=" border-2 rounded-lg hover:border-slate-400 bg-slate-200 p-8 ">   
-    <span class="font-medium absolute text-sm text-rose-600 mb-8">Please fill all the details carefully!!</span>
+    <span class="font-medium absolute text-sm text-rose-600 mb-8">Please fill all the details carefully!</span>
       <form class="form-content">
       <div class="grid xl:grid-cols-2 xl:gap-6">
         <div class="relative z-0 w-full mt-8  mb-6 group">
