@@ -9,7 +9,7 @@ function HomePage() {
     <div class="flex mt-16">
       <div class="basis-1/2 p-12 justify-items-l mt-24">
       <h1 class="text-slate-50 index-h1 mb-6 ">We are your trusted insurance agency</h1>
-            <h3 class="text-blue-100 index-p">Life insurance offers you Long-term Savings which will give huge benefit later, feel allowed to make inquiry</h3>
+            <h3 class="text-blue-100 index-p">Blockchain integrated safest and secure upto infinity </h3>
 
           <div class="homepage-button w-48">
             Learn more
